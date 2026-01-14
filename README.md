@@ -1,4 +1,4 @@
-# HireLink Frontend (React + Vite)
+# HireLink Frontend (React + Vite)!
 
 This project is the frontend for **HireLink**, built using **React** and **Vite** with a focus on clean UI and scalable structure.
 
@@ -54,3 +54,4 @@ npm run build
 ```bash
 npm run preview
 ```
+
