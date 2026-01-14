@@ -1,56 +1,16 @@
-# HireLink Frontend (React + Vite)
+# React + Vite
 
-This project is the frontend for **HireLink**, built using **React** and **Vite** with a focus on clean UI and scalable structure.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-It uses modern tooling for fast development, hot module replacement, and consistent code quality.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tech Stack
+## React Compiler
 
-- **React**
-- **Vite**
-- **JavaScript**
-- **Tailwind CSS**
-- **Biome** (for code formatting, linting, and import organization)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## Development
-
-### Install dependencies
-```bash
-npm install
-```
-### Run the development server
-```bash
-npm run dev
-```
-### Code Quality & Formatting:
-
-This project uses Biome as a single tool for:
-- Code formatting
-- Linting
-- Organizing imports
-
-### Useful commands
-```bash
-npm run check
-npm run check:write
-```
-
-#### Notes:
-ESLint and Prettier have been fully removed in favor of Biome.
-
-The Admin section UI (Login & Dashboard) is implemented before backend integration.
-
-Backend integration for Talent and Employer roles will be added incrementally.
-
-### Build
-```bash
-npm run build
-```
-### Preview production build
-```bash
-npm run preview
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
